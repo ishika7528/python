@@ -1,0 +1,13 @@
+n=int(input())
+z=len(str(n))
+sum=0
+t=n
+while(t>0):
+    a=t%10
+    sum=sum+a**z
+    t=t//10
+if(n==sum):
+    print("armstrong number")
+else:
+    print("not armstrong")
+
